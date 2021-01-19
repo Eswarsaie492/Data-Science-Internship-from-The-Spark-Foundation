@@ -3,11 +3,11 @@ Data Science Tasks
 
 K-Means Clurstering:
 
-  Explored Iris Dataset using K-Means Clustering Algorithm which is an Unsupervised Machine Learning Model.
-  The Objective of K-Means Clustering is to group similar data points together and discover underlying patterns. In the process, K-Means requires a fixed number of Clusters i.e., (k) in a dataset. The centre of the cluster is called Centroid. So, we define ‘k’ as the number of centroids we need in the dataset. K-Means Algorithm identifies the ‘k’ number of centroids and allocates every data point to the nearest cluster.
-  The K-Means Clustering Algorithm starts with randomly selected centroids and performs iterative calculations to optimize the positions of the Centroids. It halts either when the centroids are stabilized or when the defined number of iterations is achieved.
-  In the given Iris dataset, initially, I’ve imported the required Libraries like pandas, numpy, matplotlib and sklearn. Later I’ve worked on knowing the details of the data and plotted the data using scatter plot for better understanding. 
-  As mentioned, by choosing random value of k, in some cases, K-Means can result in bad clusters. Here, K-Means++ helps to initialize the cluster. So, we plot a graph called as Elbow Curve, in which, the number of clusters on x-axis and the Evaluation metric on y-axis. The cluster value where the Evaluation Metric becomes constant is the right cluster value. 
+  	Explored Iris Dataset using K-Means Clustering Algorithm which is an Unsupervised Machine Learning Model.
+  	The Objective of K-Means Clustering is to group similar data points together and discover underlying patterns. In the process, K-Means requires a fixed number of Clusters i.e., (k) in a dataset. The centre of the cluster is called Centroid. So, we define ‘k’ as the number of centroids we need in the dataset. K-Means Algorithm identifies the ‘k’ number of centroids and allocates every data point to the nearest cluster.
+  	The K-Means Clustering Algorithm starts with randomly selected centroids and performs iterative calculations to optimize the positions of the Centroids. It halts either when the centroids are stabilized or when the defined number of iterations is achieved.
+  	In the given Iris dataset, initially, I’ve imported the required Libraries like pandas, numpy, matplotlib and sklearn. Later I’ve worked on knowing the details of the data and plotted the data using scatter plot for better understanding. 
+  	As mentioned, by choosing random value of k, in some cases, K-Means can result in bad clusters. Here, K-Means++ helps to initialize the cluster. So, we plot a graph called as Elbow Curve, in which, the number of clusters on x-axis and the Evaluation metric on y-axis. The cluster value where the Evaluation Metric becomes constant is the right cluster value. 
 	From the Elbow curve, got the optimum value of ‘k’ as 3 and fit the model and Visualized by plotting the clusters and centroids of the respective clusters.
 
 
